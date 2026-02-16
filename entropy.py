@@ -26,8 +26,8 @@ def calculate_entropy(file_path):
     return entropy
 
 
-# Example usage
 if __name__ == "__main__":
     path = input("Enter file path: ")
     entropy_value = calculate_entropy(path)
     print(f"Shannon Entropy: {entropy_value:.4f} bits per byte")
+
