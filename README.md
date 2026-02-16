@@ -1,0 +1,2 @@
+# Calculate-Entropy
+This module calculates **Shannon Entropy**, introduced by Claude Shannon, to measure file randomness. It reads a file in binary mode, computes byte frequency distribution, and returns entropy (0–8 bits/byte). High entropy indicates encrypted or highly random data, useful in ransomware detection and malware analysis.
